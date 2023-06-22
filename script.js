@@ -24,7 +24,7 @@ function countdown() {
   minutesDisplay.textContent = minutes;
   secondsDisplay.textContent = seconds;
 }
-// test line
+
 countdown();
 
 setInterval(countdown, 1000);
