@@ -1,9 +1,12 @@
-const halloween = "31 Oct 2023";
-
 const daysDisplay = document.querySelector("#days");
 const hoursDisplay = document.querySelector("#hours");
 const minutesDisplay = document.querySelector("#minutes");
 const secondsDisplay = document.querySelector("#seconds");
+
+const d = new Date();
+let year = d.getFullYear();
+
+const halloween = `31 Oct ${year}`;
 
 function countdown() {
   const halloweenDate = new Date(halloween);
